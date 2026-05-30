@@ -1,0 +1,10 @@
+新しい認証システムの spec は次のとおりです:
+
+要件:
+- ユーザーは email/password で登録できる
+- ユーザーはログインして JWT token を受け取れる
+- 保護された route には有効な JWT が必要
+- token は 24 時間後に期限切れになる
+- email による password reset をサポートする
+
+これを実装する必要があります。複数の段階があります - user model、auth routes、middleware、email service integration。
