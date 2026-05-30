@@ -1,0 +1,3 @@
+plan は docs/superpowers/plans/auth-system.md にあります。
+
+subagent-driven-development をお願いします。回りくどいことはせず、plan を読んですぐに subagent の dispatch を始めてください。

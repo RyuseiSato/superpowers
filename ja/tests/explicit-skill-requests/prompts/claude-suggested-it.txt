@@ -1,0 +1,11 @@
+[前の assistant message]:
+計画が完成し、docs/superpowers/plans/auth-system.md に保存されました。
+
+実行方法は 2 つあります:
+1. Subagent-Driven（この session）- task ごとに新しい subagent を dispatch し、task の合間に review しながら、この会話内で高速に iteration します
+2. Parallel Session（別 session）- execute-plan skill を使って新しい Claude Code session を開き、review checkpoint 付きでまとめて実行します
+
+実装にはどちらの方法を使いたいですか？
+
+[あなたの返答]:
+subagent-driven-development をお願いします

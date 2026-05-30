@@ -1,0 +1,8 @@
+実装計画は docs/superpowers/plans/auth-system.md に用意してあります。
+
+これを実行するために subagent-driven-development を使いたいです。つまり:
+- plan の各 task ごとに新しい subagent を dispatch する
+- task の合間に出力を review する
+- この会話内で高速に iteration する
+
+では始めましょう - plan を読んで、各 task に対する subagent の dispatch を開始してください。

@@ -1,0 +1,17 @@
+よし、計画は完成しました。docs/superpowers/plans/auth-system.md に保存してあります。
+
+設計した内容の要約です:
+- Task 1: email/password fields を持つ User Model を追加
+- Task 2: login/register 用の auth routes を作成
+- Task 3: 保護された routes 用の JWT middleware を追加
+- Task 4: すべての auth 機能のテストを書く
+
+実行方法は 2 つあります:
+1. Subagent-Driven（この session）- task ごとに新しい subagent を dispatch
+2. Parallel Session（別 session）- 新しい Claude Code session を開く
+
+どの方法にしますか？
+
+---
+
+subagent-driven-development をお願いします

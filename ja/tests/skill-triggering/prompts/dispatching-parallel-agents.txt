@@ -1,0 +1,8 @@
+別々の module で、独立した 4 件のテスト失敗が発生しています:
+
+1. tests/auth/login.test.ts - 「should redirect after login」が失敗している
+2. tests/api/users.test.ts - 「should return user list」が 500 を返す
+3. tests/components/Button.test.tsx - snapshot mismatch
+4. tests/utils/date.test.ts - timezone handling が壊れている
+
+これらは codebase の異なる部分にある無関係な問題です。全部調査してもらえますか？

@@ -1,0 +1,3 @@
+実装する準備ができた plan が docs/superpowers/plans/auth-system.md にあります。
+
+subagent-driven-development をお願いします
